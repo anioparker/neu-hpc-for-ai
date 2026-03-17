@@ -1,4 +1,4 @@
-# DeepSeekV3 MoE Operator in Pure C
+# Implement DeepSeekV3 MoE Operator 
 
 This project implements the **Mixture-of-Experts (MoE) operator** used in **DeepSeekV3** using **pure C**, with:
 
