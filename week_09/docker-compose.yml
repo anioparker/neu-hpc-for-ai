@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    volumes:
+      - .:/workspace
+    command: bash -c "python3 scripts/verify_pytorch.py"
